@@ -29,7 +29,7 @@ return true;
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
-		$message = $_POST['message'];
+		$message = $c_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'Demo Contact Form'; 
 		$to = 'example@domain.com'; 
